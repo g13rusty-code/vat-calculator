@@ -2,11 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout'){
-            steps {
-              git url: 'https://github.com/g13rusty-code/vat-calculator.git',
-                  branch: 'main'
-            }
+       
         }
         stage('Run Tests') {
             steps {
